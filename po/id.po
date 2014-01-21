@@ -1,0 +1,1408 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Workrave 1.6.0\n"
+"Report-Msgid-Bugs-To: i18n@workrave.org\n"
+"POT-Creation-Date: 2013-05-25 20:31+0200\n"
+"PO-Revision-Date: 2014-01-21 13:16+0700\n"
+"Last-Translator: Mirza Rachmad <mirzarachmad@gmail.com>\n"
+"Language-Team: \n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.3\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: id_ID\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+
+#: ../backend/src/DistributionSocketLink.cc:131
+#, c-format
+msgid "Reconnecting to %s."
+msgstr "Menyambungkan kembali ke %s."
+
+# Kita tidak berhasil menjalankan server. Aduh...!
+#. We did not succeed in starting the server. Arghh.
+#: ../backend/src/DistributionSocketLink.cc:432
+msgid "Could not enable network operation."
+msgstr "Tidak bisa mengaktifkan operasional jaringan."
+
+#: ../backend/src/DistributionSocketLink.cc:441
+msgid "Disabling network operation."
+msgstr "Menonaktifkan operasional jaringan."
+
+#: ../backend/src/DistributionSocketLink.cc:557
+#: ../backend/src/DistributionSocketLink.cc:594
+#, c-format
+msgid "Connecting to %s."
+msgstr "Menyambungkan ke %s."
+
+#: ../backend/src/DistributionSocketLink.cc:712
+#: ../backend/src/DistributionSocketLink.cc:745
+#, c-format
+msgid "Removing client %s."
+msgstr "Melepas klien %s."
+
+# Menutup sambungan jaringan langsung.
+#. Closing direct connection.
+#: ../backend/src/DistributionSocketLink.cc:794
+#, c-format
+msgid "Disconnecting %s"
+msgstr "Memutus sambungan %s."
+
+# Klien tersebut adalah klien jarak jauh. Tandai sebagai pusat (master).
+#. It's a remote client. mark it master.
+#: ../backend/src/DistributionSocketLink.cc:964
+#, c-format
+msgid "Client %s is now master."
+msgstr "Klien %s saat ini menjadi pusat."
+
+# Itu AKU!
+#. Its ME!
+#: ../backend/src/DistributionSocketLink.cc:971
+msgid "I'm now master."
+msgstr "Saat ini aku menjadi pusat."
+
+#. gchar *name =
+#. int port =
+#: ../backend/src/DistributionSocketLink.cc:1316
+#, c-format
+msgid "Client %s saying hello."
+msgstr "Klien %s menyapa halo."
+
+# Klien duplikat. Beritahu klien bahwa dirinya sebenarnya palsu kemudian tutup.
+#. Duplicate client. inform client that it's bogus and close.
+#: ../backend/src/DistributionSocketLink.cc:1331
+#: ../backend/src/DistributionSocketLink.cc:1461
+#: ../backend/src/DistributionSocketLink.cc:1705
+#, c-format
+msgid "Client %s is duplicate."
+msgstr "Klien %s merupakan duplikat."
+
+# Kata sandi salah.
+#. Incorrect password.
+#: ../backend/src/DistributionSocketLink.cc:1341
+#, c-format
+msgid "Client %s access denied."
+msgstr "Akses klien %s ditolak."
+
+#: ../backend/src/DistributionSocketLink.cc:1410
+#, c-format
+msgid "Client %s signed off."
+msgstr "Klien %s keluar."
+
+#. gint port =
+#: ../backend/src/DistributionSocketLink.cc:1500
+#, c-format
+msgid "Client %s is welcoming us."
+msgstr "Klien %s menyambut kita."
+
+#: ../backend/src/DistributionSocketLink.cc:1741
+#, c-format
+msgid "Requesting master status from %s."
+msgstr "Meminta status pusat dari %s."
+
+#: ../backend/src/DistributionSocketLink.cc:1755
+#, c-format
+msgid "Client timeout from %s."
+msgstr "Waktu habis dari klien %s."
+
+#: ../backend/src/DistributionSocketLink.cc:1777
+#, c-format
+msgid "Rejecting master request from client %s."
+msgstr "Menolak permintaan pusat dari klien %s."
+
+#: ../backend/src/DistributionSocketLink.cc:1783
+#, c-format
+msgid "Acknowledging master request from client %s."
+msgstr "Menjawab permintaan pusat dari klien %s."
+
+#: ../backend/src/DistributionSocketLink.cc:1834
+#, c-format
+msgid "Non-master client %s rejected master request."
+msgstr "Klien bukan-pusat %s menolak permintaan pusat."
+
+#: ../backend/src/DistributionSocketLink.cc:1839
+#, c-format
+msgid "Client %s rejected master request, delaying."
+msgstr "Klien %s menolak permintaan pusat, menunda...."
+
+# gint count =
+#. gint count =
+#: ../backend/src/DistributionSocketLink.cc:1910
+#, c-format
+msgid "Client %s is now the new master."
+msgstr "Klien %s sekarang menjadi pusat baru."
+
+#: ../backend/src/DistributionSocketLink.cc:2037
+msgid "Network operation started."
+msgstr "Operasional jaringan dimulai."
+
+#: ../backend/src/DistributionSocketLink.cc:2058
+msgid "Accepted new client."
+msgstr "Menerima klien baru."
+
+#: ../backend/src/DistributionSocketLink.cc:2132
+#, c-format
+msgid "Client %s read error, closing."
+msgstr "Pembacaan klien %s mengalami kesalahan, menutup...."
+
+#: ../backend/src/DistributionSocketLink.cc:2138
+#: ../backend/src/DistributionSocketLink.cc:2211
+#, c-format
+msgid "Client %s closed connection."
+msgstr "Klien %s menutup sambungan."
+
+#: ../backend/src/DistributionSocketLink.cc:2179
+#, c-format
+msgid "Client %s connected."
+msgstr "Klien %s tersambung."
+
+#: ../backend/src/DistributionSocketLink.cc:2217
+#, c-format
+msgid "Could not connect to client %s."
+msgstr "Tidak bisa menyambung ke klien %s."
+
+#: ../frontend/applets/gnome2/src/GNOME_WorkraveApplet.xml.in.h:1
+#: ../frontend/applets/gnome3/src/WorkraveApplet.c:617
+#: ../frontend/gtkmm/src/win32/W32AppletMenu.cc:75
+msgid "_Open"
+msgstr "_Buka"
+
+#: ../frontend/applets/gnome2/src/GNOME_WorkraveApplet.xml.in.h:2
+#: ../frontend/applets/gnome3/src/WorkraveApplet.c:625
+#: ../frontend/gtkmm/src/MainGtkMenu.cc:183
+msgid "_Preferences"
+msgstr "_Pengaturan"
+
+#: ../frontend/applets/gnome2/src/GNOME_WorkraveApplet.xml.in.h:3
+#: ../frontend/applets/gnome3/src/WorkraveApplet.c:633
+msgid "_Restbreak"
+msgstr "_Istirahat"
+
+#: ../frontend/applets/gnome2/src/GNOME_WorkraveApplet.xml.in.h:4
+#: ../frontend/applets/gnome3/src/WorkraveApplet.c:629
+msgid "_Exercises"
+msgstr "_Latihan"
+
+#: ../frontend/applets/gnome2/src/GNOME_WorkraveApplet.xml.in.h:5
+#: ../frontend/applets/gnome3/src/WorkraveApplet.c:637
+#: ../frontend/gtkmm/src/IndicatorAppletMenu.cc:117
+#: ../frontend/gtkmm/src/MainGtkMenu.cc:142
+#: ../frontend/gtkmm/src/win32/W32AppletMenu.cc:99
+msgid "_Mode"
+msgstr "_Mode"
+
+#: ../frontend/applets/gnome2/src/GNOME_WorkraveApplet.xml.in.h:6
+#: ../frontend/gtkmm/src/IndicatorAppletMenu.cc:119
+#: ../frontend/gtkmm/src/MainGtkMenu.cc:144
+#: ../frontend/gtkmm/src/win32/W32AppletMenu.cc:80
+msgid "_Normal"
+msgstr "_Normal"
+
+#: ../frontend/applets/gnome2/src/GNOME_WorkraveApplet.xml.in.h:7
+msgid "_Quiet"
+msgstr "_Diam"
+
+#: ../frontend/applets/gnome2/src/GNOME_WorkraveApplet.xml.in.h:8
+#: ../frontend/gtkmm/src/IndicatorAppletMenu.cc:121
+#: ../frontend/gtkmm/src/MainGtkMenu.cc:150
+#: ../frontend/gtkmm/src/win32/W32AppletMenu.cc:92
+msgid "_Suspended"
+msgstr "Di_tangguhkan"
+
+#: ../frontend/applets/gnome2/src/GNOME_WorkraveApplet.xml.in.h:9
+#: ../frontend/applets/gnome3/src/WorkraveApplet.c:641
+#: ../frontend/gtkmm/src/IndicatorAppletMenu.cc:123
+#: ../frontend/gtkmm/src/MainGtkMenu.cc:158
+#: ../frontend/gtkmm/src/win32/W32AppletMenu.cc:118
+msgid "_Network"
+msgstr "_Jaringan"
+
+#: ../frontend/applets/gnome2/src/GNOME_WorkraveApplet.xml.in.h:10
+msgid "_Connect..."
+msgstr "_Sambungkan..."
+
+#: ../frontend/applets/gnome2/src/GNOME_WorkraveApplet.xml.in.h:11
+#: ../frontend/applets/gnome3/src/WorkraveApplet.c:649
+#: ../frontend/gtkmm/src/IndicatorAppletMenu.cc:126
+#: ../frontend/gtkmm/src/MainGtkMenu.cc:161
+#: ../frontend/gtkmm/src/win32/W32AppletMenu.cc:105
+msgid "_Disconnect"
+msgstr "P_utuskan Sambungan"
+
+#: ../frontend/applets/gnome2/src/GNOME_WorkraveApplet.xml.in.h:12
+#: ../frontend/applets/gnome3/src/WorkraveApplet.c:653
+#: ../frontend/gtkmm/src/IndicatorAppletMenu.cc:127
+#: ../frontend/gtkmm/src/MainGtkMenu.cc:163
+#: ../frontend/gtkmm/src/win32/W32AppletMenu.cc:109
+msgid "_Reconnect"
+msgstr "Sambung_kan Lagi"
+
+#: ../frontend/applets/gnome2/src/GNOME_WorkraveApplet.xml.in.h:13
+msgid "_Show Log..."
+msgstr "T_ampilkan Log..."
+
+#: ../frontend/applets/gnome2/src/GNOME_WorkraveApplet.xml.in.h:14
+#: ../frontend/applets/gnome3/src/WorkraveApplet.c:672
+#: ../frontend/gtkmm/src/GenericDBusApplet.cc:202
+#: ../frontend/gtkmm/src/IndicatorAppletMenu.cc:130
+#: ../frontend/gtkmm/src/win32/W32AppletMenu.cc:120
+msgid "Reading mode"
+msgstr "Mode membaca"
+
+#: ../frontend/applets/gnome2/src/GNOME_WorkraveApplet.xml.in.h:15
+#: ../frontend/applets/gnome3/src/WorkraveApplet.c:621
+msgid "_Statistics"
+msgstr "_Statistik"
+
+#: ../frontend/applets/gnome2/src/GNOME_WorkraveApplet.xml.in.h:16
+msgid "_About..."
+msgstr "_Tentang..."
+
+#: ../frontend/applets/gnome2/src/GNOME_WorkraveApplet.xml.in.h:17
+#: ../frontend/applets/gnome3/src/WorkraveApplet.c:661
+#: ../frontend/gtkmm/src/MainGtkMenu.cc:203
+msgid "_Quit"
+msgstr "_Keluar"
+
+#: ../frontend/applets/gnome2/src/Workrave-Applet.server.in.in.h:1
+msgid "Workrave"
+msgstr "Workrave"
+
+#: ../frontend/applets/gnome2/src/Workrave-Applet.server.in.in.h:2
+msgid "Workrave Applet"
+msgstr "Workrave Applet"
+
+#: ../frontend/applets/gnome2/src/WorkraveApplet.c:360
+#: ../frontend/applets/gnome3/src/WorkraveApplet.c:371
+#: ../frontend/gtkmm/src/Menus.cc:374
+msgid ""
+"This program assists in the prevention and recovery of Repetitive Strain "
+"Injury (RSI)."
+msgstr ""
+"Program ini membantu pencegahan dan pemulihan dari cedera regangan berulang "
+"saat bekerja dengan komputer (Repetitive Strain Injury/RSI)."
+
+#: ../frontend/applets/gnome3/src/WorkraveApplet.c:645
+msgid "_Join"
+msgstr "_Gabung"
+
+#: ../frontend/applets/gnome3/src/WorkraveApplet.c:657
+#: ../frontend/gtkmm/src/MainGtkMenu.cc:198
+msgid "_About"
+msgstr "_Tentang"
+
+#: ../frontend/applets/gnome3/src/WorkraveApplet.c:668
+#: ../frontend/gtkmm/src/GenericDBusApplet.cc:196
+msgid "Show log"
+msgstr "Tampilkan log"
+
+#: ../frontend/applets/gnome3/src/WorkraveApplet.c:679
+#: ../frontend/gtkmm/src/GenericDBusApplet.cc:181
+msgid "Normal"
+msgstr "Normal"
+
+#: ../frontend/applets/gnome3/src/WorkraveApplet.c:683
+#: ../frontend/gtkmm/src/GUI.cc:1498
+#: ../frontend/gtkmm/src/GenericDBusApplet.cc:183
+msgid "Suspended"
+msgstr "Ditangguhkan"
+
+#: ../frontend/applets/gnome3/src/WorkraveApplet.c:687
+#: ../frontend/gtkmm/src/GUI.cc:1502
+#: ../frontend/gtkmm/src/GenericDBusApplet.cc:185
+msgid "Quiet"
+msgstr "Diam"
+
+#: ../frontend/common/src/SoundPlayer.cc:80
+msgid "Break prompt"
+msgstr "Permintaan rehat"
+
+#: ../frontend/common/src/SoundPlayer.cc:86
+msgid "Break ignored"
+msgstr "Rehat diabaikan"
+
+#: ../frontend/common/src/SoundPlayer.cc:92
+msgid "Rest break started"
+msgstr "Istirahat dimulai"
+
+#: ../frontend/common/src/SoundPlayer.cc:99
+msgid "Rest break ended"
+msgstr "Istirahat selesai"
+
+#: ../frontend/common/src/SoundPlayer.cc:105
+msgid "Micro-break started"
+msgstr "Rehat sejenak dimulai"
+
+#: ../frontend/common/src/SoundPlayer.cc:111
+msgid "Micro-break ended"
+msgstr "Rehat sejenak selesai"
+
+#: ../frontend/common/src/SoundPlayer.cc:117
+#: ../frontend/gtkmm/src/DailyLimitWindow.cc:48
+#: ../frontend/gtkmm/src/DailyLimitWindow.cc:56
+#: ../frontend/gtkmm/src/GUI.cc:1491 ../frontend/gtkmm/src/GtkUtil.cc:168
+msgid "Daily limit"
+msgstr "Batas harian"
+
+#: ../frontend/common/src/SoundPlayer.cc:123
+msgid "Exercise ended"
+msgstr "Latihan diakhiri"
+
+#: ../frontend/common/src/SoundPlayer.cc:129
+msgid "Exercises ended"
+msgstr "Latihan diakhiri"
+
+#: ../frontend/common/src/SoundPlayer.cc:135
+msgid "Exercise change"
+msgstr "Ganti latihan"
+
+#: ../frontend/common/src/SoundPlayer.cc:606
+msgid "Custom"
+msgstr "Variasi"
+
+#: ../frontend/common/src/Text.cc:78
+#, c-format
+msgid "%s%d:%02d:%02d hours"
+msgstr "%s%d:%02d:%02d jam"
+
+#: ../frontend/common/src/Text.cc:82
+#, c-format
+msgid "%s%d:%02d minutes"
+msgstr "%s%d:%02d menit"
+
+#: ../frontend/common/src/Text.cc:86
+#, c-format
+msgid "%s%d seconds"
+msgstr "%s%d detik"
+
+#: ../frontend/gtkmm/src/BreakWindow.cc:314
+msgid "_Lock"
+msgstr "_Kunci"
+
+#: ../frontend/gtkmm/src/BreakWindow.cc:337
+msgid "Shut _down"
+msgstr "M_atikan"
+
+#: ../frontend/gtkmm/src/BreakWindow.cc:358
+msgid "_Skip"
+msgstr "_Lewati"
+
+#: ../frontend/gtkmm/src/BreakWindow.cc:375
+msgid "_Postpone"
+msgstr "_Tunda"
+
+#: ../frontend/gtkmm/src/DailyLimitWindow.cc:57
+msgid ""
+"You have reached your daily limit. Please stop working\n"
+"behind the computer. If your working day is not over yet,\n"
+"find something else to do, such as reviewing a document."
+msgstr ""
+"Anda telah mencapai batas harian. Berhenti bekerja\n"
+"di depan komputer. Jika jam kerja Anda belum berakhir,\n"
+"lakukan pekerjaan lainnya, misalnya meninjau dokumen."
+
+#: ../frontend/gtkmm/src/GUI.cc:301
+msgid ""
+"Workrave is still running. You can access Workrave by clicking on the white "
+"sheep icon. Click on this balloon to disable this message"
+msgstr ""
+"Workrave sedang berjalan. Anda dapat mengakses Workrave dengan mengklik ikon "
+"domba putih. Klik notifikasi ini untuk menonaktifkannya"
+
+#: ../frontend/gtkmm/src/GUI.cc:833 ../frontend/gtkmm/src/GUI.cc:948
+msgid "Workrave failed to start"
+msgstr "Workrave tidak dapat dijalankan"
+
+#: ../frontend/gtkmm/src/GUI.cc:835
+msgid "Is Workrave already running?"
+msgstr "Apakah Workrave  sudah berjalan?"
+
+#: ../frontend/gtkmm/src/GUI.cc:943
+msgid "Workrave could not monitor your keyboard and mouse activity.\n"
+msgstr "Workrave dapat memonitor aktivitas mouse dan keyboard Anda.\n"
+
+#: ../frontend/gtkmm/src/GUI.cc:946
+msgid "Make sure that the RECORD extension is enabled in the X server."
+msgstr "Pastikan ekstensi RECORD diaktifkan pada server X."
+
+#: ../frontend/gtkmm/src/GUI.cc:1357
+msgid ""
+"Workrave is in suspended mode. Mouse and keyboard activity will not be "
+"monitored."
+msgstr ""
+"Workrave dalam mode ditangguhkan. Aktivitas mouse dan keyboard tidak akan "
+"dimonitor."
+
+#: ../frontend/gtkmm/src/GUI.cc:1363
+msgid "Workrave is in quiet mode. No break windows will appear."
+msgstr "Workrave dalam mode diam. Jendela istirahat tidak akan ditampilkan."
+
+#. FIXME: duplicate
+#: ../frontend/gtkmm/src/GUI.cc:1491 ../frontend/gtkmm/src/GtkUtil.cc:168
+#: ../frontend/gtkmm/src/MicroBreakWindow.cc:54
+#: ../frontend/gtkmm/src/MicroBreakWindow.cc:179
+#: ../frontend/gtkmm/src/MicroBreakWindow.cc:277
+msgid "Micro-break"
+msgstr "Rehat sejenak"
+
+#: ../frontend/gtkmm/src/GUI.cc:1491
+#: ../frontend/gtkmm/src/GenericDBusApplet.cc:177
+#: ../frontend/gtkmm/src/GtkUtil.cc:168
+#: ../frontend/gtkmm/src/MicroBreakWindow.cc:147
+#: ../frontend/gtkmm/src/RestBreakWindow.cc:82
+#: ../frontend/gtkmm/src/RestBreakWindow.cc:225
+msgid "Rest break"
+msgstr "Istirahat"
+
+#: ../frontend/gtkmm/src/GUI.cc:1498 ../frontend/gtkmm/src/GUI.cc:1502
+msgid "Mode: "
+msgstr "Mode: "
+
+#: ../frontend/gtkmm/src/GenericDBusApplet.cc:175
+#: ../frontend/gtkmm/src/IndicatorAppletMenu.cc:112
+msgid "Open"
+msgstr "Buka"
+
+#: ../frontend/gtkmm/src/GenericDBusApplet.cc:176
+#: ../frontend/gtkmm/src/IndicatorAppletMenu.cc:113
+#: ../frontend/gtkmm/src/PreferencesDialog.cc:71
+#: ../frontend/gtkmm/src/win32/W32AppletMenu.cc:76
+msgid "Preferences"
+msgstr "Pengaturan"
+
+#: ../frontend/gtkmm/src/GenericDBusApplet.cc:178
+#: ../frontend/gtkmm/src/IndicatorAppletMenu.cc:115
+#: ../frontend/gtkmm/src/MainGtkMenu.cc:188
+#: ../frontend/gtkmm/src/win32/W32AppletMenu.cc:78
+#: ../frontend/plugin/exercises/gtkmm/src/ExercisesDialog.cc:44
+msgid "Exercises"
+msgstr "Latihan"
+
+#: ../frontend/gtkmm/src/GenericDBusApplet.cc:179
+#: ../frontend/gtkmm/src/GenericDBusApplet.cc:189
+msgid "Mode"
+msgstr "Mode"
+
+#: ../frontend/gtkmm/src/GenericDBusApplet.cc:192
+#: ../frontend/gtkmm/src/GenericDBusApplet.cc:199
+#: ../frontend/gtkmm/src/PreferencesDialog.cc:116
+msgid "Network"
+msgstr "Jaringan"
+
+#: ../frontend/gtkmm/src/GenericDBusApplet.cc:193
+msgid "Connect"
+msgstr "Sambungkan"
+
+#: ../frontend/gtkmm/src/GenericDBusApplet.cc:194
+msgid "Disconnect"
+msgstr "Putuskan"
+
+#: ../frontend/gtkmm/src/GenericDBusApplet.cc:195
+msgid "Reconnect"
+msgstr "Sambungkan lagi"
+
+#: ../frontend/gtkmm/src/GenericDBusApplet.cc:206
+#: ../frontend/gtkmm/src/IndicatorAppletMenu.cc:131
+#: ../frontend/gtkmm/src/MainGtkMenu.cc:193
+#: ../frontend/gtkmm/src/win32/W32AppletMenu.cc:126
+#: ../frontend/plugin/statistics/gtkmm/src/StatisticsDialog.cc:58
+#: ../frontend/plugin/statistics/gtkmm/src/StatisticsDialog.cc:157
+msgid "Statistics"
+msgstr "Statistik"
+
+#: ../frontend/gtkmm/src/GenericDBusApplet.cc:207
+#: ../frontend/gtkmm/src/IndicatorAppletMenu.cc:132
+#: ../frontend/gtkmm/src/win32/W32AppletMenu.cc:127
+msgid "About..."
+msgstr "Tentang..."
+
+#: ../frontend/gtkmm/src/IndicatorAppletMenu.cc:114
+#: ../frontend/gtkmm/src/MainGtkMenu.cc:101
+#: ../frontend/gtkmm/src/MainGtkMenu.cc:177
+#: ../frontend/gtkmm/src/win32/W32AppletMenu.cc:77
+msgid "_Rest break"
+msgstr "_Istirahat"
+
+#: ../frontend/gtkmm/src/IndicatorAppletMenu.cc:120
+#: ../frontend/gtkmm/src/MainGtkMenu.cc:147
+#: ../frontend/gtkmm/src/win32/W32AppletMenu.cc:86
+msgid "Q_uiet"
+msgstr "_Diam"
+
+#: ../frontend/gtkmm/src/IndicatorAppletMenu.cc:125
+#: ../frontend/gtkmm/src/MainGtkMenu.cc:159
+#: ../frontend/gtkmm/src/win32/W32AppletMenu.cc:102
+msgid "_Connect"
+msgstr "_Sambungkan"
+
+#: ../frontend/gtkmm/src/IndicatorAppletMenu.cc:128
+#: ../frontend/gtkmm/src/MainGtkMenu.cc:165
+#: ../frontend/gtkmm/src/win32/W32AppletMenu.cc:112
+msgid "Show _log"
+msgstr "Tampilkan _log"
+
+#: ../frontend/gtkmm/src/IndicatorAppletMenu.cc:133
+msgid "Quit"
+msgstr "Keluar"
+
+#: ../frontend/gtkmm/src/MainGtkMenu.cc:153
+msgid "_Reading mode"
+msgstr "_Mode membaca"
+
+#: ../frontend/gtkmm/src/MicroBreakWindow.cc:239
+msgid "Please relax for a few seconds"
+msgstr "Santailah sejenak."
+
+#: ../frontend/gtkmm/src/MicroBreakWindow.cc:246
+#, c-format
+msgid "Next rest break in %s"
+msgstr "Istirahat berikutnya dalam waktu %s"
+
+#: ../frontend/gtkmm/src/MicroBreakWindow.cc:251
+#, c-format
+msgid "Rest break %s overdue"
+msgstr "Istirahat terlambat %s"
+
+#: ../frontend/gtkmm/src/MicroBreakWindow.cc:264
+#, c-format
+msgid "Daily limit in %s"
+msgstr "Batas harian dalam %s"
+
+#: ../frontend/gtkmm/src/MicroBreakWindow.cc:269
+#, c-format
+msgid "Daily limit %s overdue"
+msgstr "Batas harian terlambat %s"
+
+#: ../frontend/gtkmm/src/PreferencesDialog.cc:92
+#: ../frontend/plugin/distribution/gtkmm/src/NetworkPreferencePage.cc:116
+msgid "General"
+msgstr "Umum"
+
+# panel->add(*start_in_tray_cb);
+# panel->add(*start_in_tray_cb);
+#: ../frontend/gtkmm/src/PreferencesDialog.cc:97
+msgid "Sounds"
+msgstr "Suara"
+
+#: ../frontend/gtkmm/src/PreferencesDialog.cc:101
+msgid "Status Window"
+msgstr "Jendela status"
+
+#: ../frontend/gtkmm/src/PreferencesDialog.cc:105
+msgid "Applet"
+msgstr "Applet"
+
+# Notebook
+#. Notebook
+#: ../frontend/gtkmm/src/PreferencesDialog.cc:113
+#: ../frontend/gtkmm/src/TimerBoxPreferencePage.cc:162
+#: ../frontend/gtkmm/src/TimerPreferencesPanel.cc:227
+msgid "Timers"
+msgstr "Timer"
+
+#: ../frontend/gtkmm/src/PreferencesDialog.cc:114
+msgid "User interface"
+msgstr "Antarmuka pengguna"
+
+#: ../frontend/gtkmm/src/PreferencesDialog.cc:163
+#: ../frontend/gtkmm/src/PreferencesDialog.cc:167
+msgid "No blocking"
+msgstr "Tak ada pemblokiran"
+
+#: ../frontend/gtkmm/src/PreferencesDialog.cc:164
+#: ../frontend/gtkmm/src/PreferencesDialog.cc:168
+msgid "Block input"
+msgstr "Blokir perangkat input"
+
+#: ../frontend/gtkmm/src/PreferencesDialog.cc:165
+#: ../frontend/gtkmm/src/PreferencesDialog.cc:169
+msgid "Block input and screen"
+msgstr "Blokir input dan layar"
+
+#. Options
+#: ../frontend/gtkmm/src/PreferencesDialog.cc:189
+#: ../frontend/gtkmm/src/TimerPreferencesPanel.cc:147
+msgid "Options"
+msgstr "Pilihan"
+
+#: ../frontend/gtkmm/src/PreferencesDialog.cc:191
+msgid "Block mode:"
+msgstr "Mode blokir:"
+
+#: ../frontend/gtkmm/src/PreferencesDialog.cc:211
+msgid "System default"
+msgstr "Default sistem"
+
+#: ../frontend/gtkmm/src/PreferencesDialog.cc:255
+msgid "(font not available)"
+msgstr "(font tidak tersedia)"
+
+#: ../frontend/gtkmm/src/PreferencesDialog.cc:280
+msgid "Language:"
+msgstr "Bahasa:"
+
+#: ../frontend/gtkmm/src/PreferencesDialog.cc:284
+msgid "Start Workrave on Windows startup"
+msgstr "Jalankan Workrave bersama Windows"
+
+#: ../frontend/gtkmm/src/PreferencesDialog.cc:296
+msgid "Show system tray icon"
+msgstr "Tampilkan ikon tray sistem"
+
+#. Options
+#: ../frontend/gtkmm/src/PreferencesDialog.cc:314
+msgid "Sound Options"
+msgstr "Pilihan Suara"
+
+#: ../frontend/gtkmm/src/PreferencesDialog.cc:320
+#: ../frontend/gtkmm/src/PreferencesDialog.cc:324
+msgid "No sounds"
+msgstr "Tanpa suara"
+
+#: ../frontend/gtkmm/src/PreferencesDialog.cc:321
+#: ../frontend/gtkmm/src/PreferencesDialog.cc:325
+msgid "Play sounds using sound card"
+msgstr "Mainkan suara menggunakan sound card"
+
+#: ../frontend/gtkmm/src/PreferencesDialog.cc:322
+#: ../frontend/gtkmm/src/PreferencesDialog.cc:326
+msgid "Play sounds using built-in speaker"
+msgstr "Mainkan suara menggunakan speaker built-in"
+
+#: ../frontend/gtkmm/src/PreferencesDialog.cc:351
+msgid "Volume:"
+msgstr "Volume:"
+
+# panel->add(*start_in_tray_cb);
+# panel->add(*start_in_tray_cb);
+#: ../frontend/gtkmm/src/PreferencesDialog.cc:354
+msgid "Sound:"
+msgstr "Suara:"
+
+#: ../frontend/gtkmm/src/PreferencesDialog.cc:360
+msgid "Mute sounds during rest break and daily limit"
+msgstr "Matikan suara ketika istirahat dan batas harian"
+
+# Tema suara
+#. Sound themes
+#: ../frontend/gtkmm/src/PreferencesDialog.cc:370
+msgid "Sound Events"
+msgstr "Event Suara"
+
+# panel->add(*start_in_tray_cb);
+# panel->add(*start_in_tray_cb);
+#: ../frontend/gtkmm/src/PreferencesDialog.cc:378
+msgid "Sound Theme:"
+msgstr "Tema Suara:"
+
+#: ../frontend/gtkmm/src/PreferencesDialog.cc:401
+#: ../frontend/gtkmm/src/PreferencesDialog.cc:419
+#: ../frontend/gtkmm/src/PreferencesDialog.cc:449
+msgid "Play"
+msgstr "Mainkan"
+
+#: ../frontend/gtkmm/src/PreferencesDialog.cc:406
+msgid "Event"
+msgstr "Event"
+
+#: ../frontend/gtkmm/src/PreferencesDialog.cc:422
+msgid "Choose a sound"
+msgstr "Pilih suara"
+
+#: ../frontend/gtkmm/src/PreferencesDialog.cc:434
+msgid "Wavefiles"
+msgstr "Berkas wave"
+
+#: ../frontend/gtkmm/src/PreferencesDialog.cc:530
+msgid "Use alternate monitor"
+msgstr "Gunakan monitor alternatif"
+
+#: ../frontend/gtkmm/src/PreferencesDialog.cc:536
+msgid ""
+"Enable this option if Workrave fails to detect when you are using your "
+"computer"
+msgstr ""
+"Aktifkan pilihan ini bila Workrave gagal mendeteksi ketika Anda menggunakan "
+"komputer"
+
+#: ../frontend/gtkmm/src/PreludeWindow.cc:107
+msgid "Time for a micro-break?"
+msgstr "Waktunya rehat sejenak?"
+
+#: ../frontend/gtkmm/src/PreludeWindow.cc:111
+msgid "You need a rest break..."
+msgstr "Anda perlu rehat sejenak..."
+
+#: ../frontend/gtkmm/src/PreludeWindow.cc:115
+msgid "You should stop for today..."
+msgstr "Sebaiknya selesai untuk hari ini..."
+
+#: ../frontend/gtkmm/src/PreludeWindow.cc:319
+#, c-format
+msgid "Break in %s"
+msgstr "Rehat dalam %s"
+
+#: ../frontend/gtkmm/src/PreludeWindow.cc:323
+#, c-format
+msgid "Disappears in %s"
+msgstr "Menghilang dalam %s"
+
+#: ../frontend/gtkmm/src/PreludeWindow.cc:327
+#, c-format
+msgid "Silent in %s"
+msgstr "Diam dalam %s"
+
+#: ../frontend/gtkmm/src/RestBreakWindow.cc:177
+#, c-format
+msgid "Rest break for %s"
+msgstr "Istirahat untuk %s"
+
+#: ../frontend/gtkmm/src/RestBreakWindow.cc:219
+msgid "Natural rest break"
+msgstr "Istirahat biasa"
+
+#: ../frontend/gtkmm/src/RestBreakWindow.cc:220
+msgid "This is your natural rest break."
+msgstr "Inilah istirahat biasa untuk Anda."
+
+#: ../frontend/gtkmm/src/RestBreakWindow.cc:226
+msgid ""
+"This is your rest break. Make sure you stand up and\n"
+"walk away from your computer on a regular basis. Just\n"
+"walk around for a few minutes, stretch, and relax."
+msgstr ""
+"Inilah istirahat untuk Anda. Berdiri dan berjalanlah\n"
+"secara teratur, menjauhlah dari komputer. Berkeliling,\n"
+"lakukan peregangan badan dan bersantailah."
+
+#: ../frontend/gtkmm/src/TimerBoxGtkView.cc:190
+msgid "Take rest break now"
+msgstr "Istirahatlah sekarang"
+
+#: ../frontend/gtkmm/src/TimerBoxGtkView.cc:212
+msgid "Wait"
+msgstr "Tunggu"
+
+#: ../frontend/gtkmm/src/TimerBoxPreferencePage.cc:91
+#: ../frontend/gtkmm/src/TimerBoxPreferencePage.cc:96
+msgid "Place timers next to each other"
+msgstr "Letakkan timer bersama yang lainnya"
+
+#: ../frontend/gtkmm/src/TimerBoxPreferencePage.cc:92
+#: ../frontend/gtkmm/src/TimerBoxPreferencePage.cc:97
+msgid "Place micro-break and rest break in one spot"
+msgstr "Letakkan rehat sejenak dan istirahat dalam satu tempat"
+
+#: ../frontend/gtkmm/src/TimerBoxPreferencePage.cc:93
+#: ../frontend/gtkmm/src/TimerBoxPreferencePage.cc:98
+msgid "Place rest break and daily limit in one spot"
+msgstr "Letakkan istirahat dan batas harian dalam satu tempat"
+
+#: ../frontend/gtkmm/src/TimerBoxPreferencePage.cc:94
+#: ../frontend/gtkmm/src/TimerBoxPreferencePage.cc:99
+msgid "Place all timers in one spot"
+msgstr "Letakkan semua timer dalam satu tempat"
+
+#: ../frontend/gtkmm/src/TimerBoxPreferencePage.cc:118
+#: ../frontend/gtkmm/src/TimerBoxPreferencePage.cc:122
+msgid "Hide"
+msgstr "Sembunyikan"
+
+#: ../frontend/gtkmm/src/TimerBoxPreferencePage.cc:119
+#: ../frontend/gtkmm/src/TimerBoxPreferencePage.cc:123
+msgid "Show"
+msgstr "Tampilkan"
+
+#: ../frontend/gtkmm/src/TimerBoxPreferencePage.cc:120
+#: ../frontend/gtkmm/src/TimerBoxPreferencePage.cc:124
+msgid "Show only when this timer is first due"
+msgstr "Tampilkan hanya ketika timer pertama kali berlalu"
+
+#: ../frontend/gtkmm/src/TimerBoxPreferencePage.cc:133
+msgid "Show status window"
+msgstr "Tampilkan jendela status"
+
+#: ../frontend/gtkmm/src/TimerBoxPreferencePage.cc:138
+msgid "The status window stays always on top of other windows"
+msgstr "Jendela status selalu diatas jendela lainnya"
+
+#: ../frontend/gtkmm/src/TimerBoxPreferencePage.cc:144
+msgid "Applet enabled"
+msgstr "Applet diaktifkan"
+
+#: ../frontend/gtkmm/src/TimerBoxPreferencePage.cc:150
+msgid "Display"
+msgstr "Tampilan"
+
+#: ../frontend/gtkmm/src/TimerBoxPreferencePage.cc:159
+msgid "Placement:"
+msgstr "Peletakan:"
+
+#: ../frontend/gtkmm/src/TimerBoxPreferencePage.cc:160
+msgid "Cycle time:"
+msgstr "Waktu siklus:"
+
+# Layout
+#. Layout
+#: ../frontend/gtkmm/src/TimerBoxPreferencePage.cc:165
+msgid "Micro-break:"
+msgstr "Rehat sejenak:"
+
+#: ../frontend/gtkmm/src/TimerBoxPreferencePage.cc:166
+msgid "Rest break:"
+msgstr "Istirahat:"
+
+#: ../frontend/gtkmm/src/TimerBoxPreferencePage.cc:167
+msgid "Daily limit:"
+msgstr "Batas harian:"
+
+# Enabled/Disabled checkbox
+#. Enabled/Disabled checkbox
+#: ../frontend/gtkmm/src/TimerPreferencesPanel.cc:75
+msgid "Enable timer"
+msgstr "Aktifkan timer"
+
+# Prelude frame
+#. Prelude frame
+#: ../frontend/gtkmm/src/TimerPreferencesPanel.cc:116
+msgid "Break prompting"
+msgstr "Permintaan rehat"
+
+#: ../frontend/gtkmm/src/TimerPreferencesPanel.cc:118
+msgid "Prompt before breaking"
+msgstr "Tanyakan sebelum rehat"
+
+#: ../frontend/gtkmm/src/TimerPreferencesPanel.cc:122
+msgid "Maximum number of prompts:"
+msgstr "Jumlah permintaan maksimal:"
+
+#: ../frontend/gtkmm/src/TimerPreferencesPanel.cc:151
+msgid "Show 'Postpone' button"
+msgstr "Tampilkan tombol 'Tunda'"
+
+#: ../frontend/gtkmm/src/TimerPreferencesPanel.cc:156
+msgid "Show 'Skip' button"
+msgstr "Tampilkan tombol 'Lewati'"
+
+#: ../frontend/gtkmm/src/TimerPreferencesPanel.cc:161
+msgid "Suspend timer when inactive"
+msgstr "Tangguhkan timer ketika tidak aktif"
+
+#: ../frontend/gtkmm/src/TimerPreferencesPanel.cc:176
+msgid "Regard micro-breaks as activity"
+msgstr "Perlakukan rehat sejenak sebagai aktivitas"
+
+#: ../frontend/gtkmm/src/TimerPreferencesPanel.cc:185
+msgid "Number of exercises:"
+msgstr "Jumlah latihan:"
+
+#: ../frontend/gtkmm/src/TimerPreferencesPanel.cc:190
+msgid "Start restbreak when screen is locked"
+msgstr "Mulai istirahat ketika tampilan dikunci"
+
+#: ../frontend/gtkmm/src/TimerPreferencesPanel.cc:232
+msgid "Time before end:"
+msgstr "Waktu mengakhiri:"
+
+#: ../frontend/gtkmm/src/TimerPreferencesPanel.cc:233
+msgid "Time between breaks:"
+msgstr "Waktu antar rehat:"
+
+#: ../frontend/gtkmm/src/TimerPreferencesPanel.cc:240
+msgid "Break duration:"
+msgstr "Durasi rehat:"
+
+#: ../frontend/gtkmm/src/TimerPreferencesPanel.cc:255
+msgid "Postpone time:"
+msgstr "Waktu tunda:"
+
+#: ../frontend/gtkmm/src/workrave.desktop.in.h:1
+msgid ""
+"Assists in the prevention and recovery of Repetitive Strain Injury (RSI)"
+msgstr "Membantu pencegahan dan pemulihan dari Repetitive Strain Injury (RSI)"
+
+#: ../frontend/plugin/distribution/gtkmm/src/NetworkJoinDialog.cc:55
+#: ../frontend/plugin/distribution/gtkmm/src/NetworkJoinDialog.cc:79
+msgid "Network connect"
+msgstr "Sambung jaringan"
+
+#: ../frontend/plugin/distribution/gtkmm/src/NetworkJoinDialog.cc:80
+msgid ""
+"Enter the host name and port number of a computer\n"
+"in the network you wish to connect to."
+msgstr ""
+"Masukkan nama host dan nomor port dari komputer\n"
+"dalam jaringan yang ingin anda sambungkan."
+
+#: ../frontend/plugin/distribution/gtkmm/src/NetworkJoinDialog.cc:92
+msgid "Host name:"
+msgstr "Nama host:"
+
+#: ../frontend/plugin/distribution/gtkmm/src/NetworkJoinDialog.cc:93
+msgid "Port:"
+msgstr "Port:"
+
+#: ../frontend/plugin/distribution/gtkmm/src/NetworkLogDialog.cc:50
+#: ../frontend/plugin/distribution/gtkmm/src/NetworkLogDialog.cc:52
+msgid "Network log"
+msgstr "Log jaringan"
+
+#: ../frontend/plugin/distribution/gtkmm/src/NetworkPreferencePage.cc:96
+msgid "Enable networking"
+msgstr "Aktifkan jaringan"
+
+#: ../frontend/plugin/distribution/gtkmm/src/NetworkPreferencePage.cc:103
+msgid "Username:"
+msgstr "Nama pengguna:"
+
+#: ../frontend/plugin/distribution/gtkmm/src/NetworkPreferencePage.cc:104
+msgid "Password:"
+msgstr "Kata sandi:"
+
+#: ../frontend/plugin/distribution/gtkmm/src/NetworkPreferencePage.cc:111
+msgid "Allow incoming connections"
+msgstr "Perbolehkan sambungan masuk"
+
+#: ../frontend/plugin/distribution/gtkmm/src/NetworkPreferencePage.cc:129
+msgid "Server settings"
+msgstr "Pengaturan server"
+
+#: ../frontend/plugin/distribution/gtkmm/src/NetworkPreferencePage.cc:151
+msgid "Server port:"
+msgstr "Port server:"
+
+#: ../frontend/plugin/distribution/gtkmm/src/NetworkPreferencePage.cc:152
+msgid "Reconnect attempts:"
+msgstr "Coba sambungkan lagi:"
+
+#: ../frontend/plugin/distribution/gtkmm/src/NetworkPreferencePage.cc:153
+msgid "Reconnect interval:"
+msgstr "Jeda waktu sambungkan lagi:"
+
+#: ../frontend/plugin/distribution/gtkmm/src/NetworkPreferencePage.cc:156
+msgid "Advanced"
+msgstr "Tingkat Lanjut"
+
+#: ../frontend/plugin/distribution/gtkmm/src/NetworkPreferencePage.cc:173
+msgid ""
+"The following list specifies the hosts that Workrave connects to on\n"
+"start-up. Click the host name or port number to edit."
+msgstr ""
+"Daftar berikut merupakan host yang disambungkan ketika Workrave\n"
+"mulai dijalankan. Klik nama host atau nomor port untuk mengubahnya."
+
+#: ../frontend/plugin/distribution/gtkmm/src/NetworkPreferencePage.cc:201
+msgid "Host name"
+msgstr "Nama host"
+
+#: ../frontend/plugin/distribution/gtkmm/src/NetworkPreferencePage.cc:210
+msgid "Port"
+msgstr "Port"
+
+#: ../frontend/plugin/distribution/gtkmm/src/NetworkPreferencePage.cc:250
+msgid "Hosts"
+msgstr "Host"
+
+#: ../frontend/plugin/exercises/common/share/exercises.xml.in.h:1
+msgid "Shoulder-arm stretch"
+msgstr "Peregangan lengan dan bahu"
+
+#: ../frontend/plugin/exercises/common/share/exercises.xml.in.h:2
+msgid ""
+"Keep one arm horizontally stretched in front of your chest. Push this arm "
+"with your other arm towards you until you feel a mild tension in your "
+"shoulder. Hold this position briefly, and repeat the exercise for your other "
+"arm."
+msgstr ""
+"Angkat satu lengan kemudian arahkan ke depan dada dan luruskan ke samping. "
+"Tekan ke depan lengan tersebut dengan lengan satunya hingga bahu Anda "
+"merasakan tekanan yang ringan. Pertahankan posisi ini, ulangi untuk lengan "
+"lainnya."
+
+#: ../frontend/plugin/exercises/common/share/exercises.xml.in.h:3
+msgid "Finger stretch"
+msgstr "Perengangan jari jemari"
+
+#: ../frontend/plugin/exercises/common/share/exercises.xml.in.h:4
+msgid ""
+"Separate and stretch your fingers until a mild tension is felt, and hold "
+"this for 10 seconds. Relax, then bend your fingers at the knuckles, and hold "
+"again for 10 seconds. Repeat this exercise once more."
+msgstr ""
+"Lebarkan dan regangkan jemari Anda sampai Anda merasakan tekanan ringan, "
+"pertahankan posisi ini selama 10 detik. Lemaskan kemudian tekuk buku-buku "
+"jemari Anda dan pertahankan selama 10 detik. Ulangi gerakan ini sekali lagi."
+
+#: ../frontend/plugin/exercises/common/share/exercises.xml.in.h:5
+msgid "Neck tilt stretch"
+msgstr "Peregangan leher"
+
+#: ../frontend/plugin/exercises/common/share/exercises.xml.in.h:6
+msgid ""
+"Start with your head in a comfortable straight position. Then, slowly tilt "
+"your head to your right shoulder to gently stretch the muscles on the left "
+"side of your neck. Hold this position for 5 seconds. Then, tilt your head to "
+"the left side to stretch your other side. Do this twice for each side."
+msgstr ""
+"Posisikan kepala lurus dan tegak. Kemudian miringkan kepala ke bahu kanan "
+"untuk meregangkan otot kiri dari leher Anda. Tahan selama 5 detik. Kemudian "
+"miringkan kepala ke bahu kiri untuk meregangkan otot leher sebelah kanan. "
+"Ulangi sebanyak dua kali tiap sisinya."
+
+#: ../frontend/plugin/exercises/common/share/exercises.xml.in.h:7
+msgid "Backward shoulder stretch"
+msgstr "Peregangan bahu dan punggung"
+
+#: ../frontend/plugin/exercises/common/share/exercises.xml.in.h:8
+msgid ""
+"Interlace your fingers behind your back. Then turn your elbows gently "
+"inward, while straightening your arms. Hold this position for 5 to 15 "
+"seconds, and repeat this exercise twice."
+msgstr ""
+"Silangkan jari di belakang punggung. Kemudian gerakkan siku ke dalam sembari "
+"meluruskan lengan. Pertahankan posisi ini selama 5 detik, ulangi latihan ini "
+"sebanyak dua kali."
+
+#: ../frontend/plugin/exercises/common/share/exercises.xml.in.h:9
+msgid "Move the eyes"
+msgstr "Gerakkan mata Anda"
+
+#: ../frontend/plugin/exercises/common/share/exercises.xml.in.h:10
+msgid ""
+"Look at the upper left corner of the outside border of your monitor. Follow "
+"the border slowly to the upper right corner. Continue to the next corner, "
+"until you got around it two times. Then, reverse the exercise."
+msgstr ""
+"Perhatikan pojok kiri atas dari monitor Anda. Gerakkan mata dengan perlahan "
+"mengikuti tepian monitor hingga pojok kanan atas. Lanjutkan dengan "
+"mengelilingi monitor hingga dua kali. Kemudian lakukan lagi dengan membalik "
+"langkah tersebut."
+
+#: ../frontend/plugin/exercises/common/share/exercises.xml.in.h:11
+msgid "Train focusing the eyes"
+msgstr "Latihan memfokuskan mata"
+
+#: ../frontend/plugin/exercises/common/share/exercises.xml.in.h:12
+msgid ""
+"Look for the furthest point you can see behind your monitor. Focus your eyes "
+"on the remote point. Then focus on your monitor border. Repeat it. If you "
+"can't look very far from your monitor, face another direction with a longer "
+"view. Then switch your focus between a distant object and a pen held at the "
+"same distance from your eyes as your monitor."
+msgstr ""
+"Lihatlah titik terjauh yang bisa dilihat dibelakang monitor Anda. Fokuskan "
+"mata pada titik yang jauh tersebut. Kemudian fokus pada tepian monitor. "
+"Ulangi langkah ini. Jika dibelakang monitor tidak ada pemandangan jauh yang "
+"dapat dilihat, beralihlah ke sisi lain. Kemudian alihkan fokus antara obyek "
+"yang jauh tersebut dengan sebuah pena yang dipasang pada jarak yang sama "
+"antara monitor dan mata Anda."
+
+#: ../frontend/plugin/exercises/common/share/exercises.xml.in.h:13
+msgid "Look into the darkness"
+msgstr "Melihat dalam kegelapan"
+
+#: ../frontend/plugin/exercises/common/share/exercises.xml.in.h:14
+msgid ""
+"Cover your eyes with your palms in such way that you can still open your "
+"eyelids. Now open your eyes and look into the darkness of your palms. This "
+"exercise gives better relief to your eyes compared to simply closing them."
+msgstr ""
+"Tutup mata Anda dengan telapak tangan sedemikian rupa sehingga Anda masih "
+"bisa membuka kelopak mata Anda. Sekarang bukalah mata Anda dan lihatlah "
+"kegelapan tersebut. Latihan ini lebih baik dibandingkan dengan hanya menutup "
+"mata."
+
+#: ../frontend/plugin/exercises/common/share/exercises.xml.in.h:15
+msgid "Move the shoulders"
+msgstr "Gerakkan bahu"
+
+#: ../frontend/plugin/exercises/common/share/exercises.xml.in.h:16
+msgid ""
+"Spin your right arm slowly round like a plane propeller beside your body. Do "
+"this 4 times forwards, 4 times backwards and relax for a few seconds. Repeat "
+"with the left arm."
+msgstr ""
+"Gerakkan lengan kanan Anda memutar, seperti baling-baling pesawat. Lakukan "
+"ke depan 4 kali, ke belakang 4 kali dan lemaskan selama beberapa detik. "
+"Ulangi untuk lengan kiri."
+
+#: ../frontend/plugin/exercises/common/share/exercises.xml.in.h:17
+msgid "Move the shoulders up and down"
+msgstr "Gerakkan bahu ke atas dan ke bawah"
+
+#: ../frontend/plugin/exercises/common/share/exercises.xml.in.h:18
+msgid ""
+"Put your hands on the armrests of your chair when you are sitting down and "
+"press your body up until your arms are straight. Try to move your head even "
+"further by lowering your shoulders. Slowly move back into your chair."
+msgstr ""
+"Letakkan tangan pada pegangan kursi Anda sementara Anda duduk, kemudian "
+"angkat tubuh Anda hingga lengan menjadi lurus. Cobalah membusungkan dada "
+"dengan menekan bahu ke bawah. Kemudian secara perlahan kembali ke posisi "
+"duduk."
+
+#: ../frontend/plugin/exercises/common/share/exercises.xml.in.h:19
+msgid "Turn your head"
+msgstr "Putar kepala Anda"
+
+#: ../frontend/plugin/exercises/common/share/exercises.xml.in.h:20
+msgid ""
+"Turn your head left and keep it there for 2 seconds. Then turn your head "
+"right and keep it there for 2 seconds."
+msgstr ""
+"Menolehlah ke kiri dan tahan selama 2 detik. Kemudian menolehlah ke kanan "
+"dan tahan selama 2 detik."
+
+#: ../frontend/plugin/exercises/gtkmm/src/ExercisesPanel.cc:263
+msgid "Exercises player"
+msgstr "Pemutar latihan gerak badan"
+
+#: ../frontend/plugin/exercises/gtkmm/src/ExercisesPanel.cc:297
+msgid "Previous exercise"
+msgstr "Latihan sebelumnya"
+
+#: ../frontend/plugin/exercises/gtkmm/src/ExercisesPanel.cc:298
+msgid "Next exercise"
+msgstr "Latihan selanjutnya"
+
+#: ../frontend/plugin/exercises/gtkmm/src/ExercisesPanel.cc:299
+#: ../frontend/plugin/exercises/gtkmm/src/ExercisesPanel.cc:488
+msgid "Pause exercises"
+msgstr "Hentikan latihan sejenak"
+
+#: ../frontend/plugin/exercises/gtkmm/src/ExercisesPanel.cc:303
+msgid "End exercises"
+msgstr "Akhiri latihan"
+
+#: ../frontend/plugin/exercises/gtkmm/src/ExercisesPanel.cc:481
+msgid "Resume"
+msgstr "Lanjutkan"
+
+#: ../frontend/plugin/exercises/gtkmm/src/ExercisesPanel.cc:481
+msgid "Pause"
+msgstr "Hentikan sejenak"
+
+#: ../frontend/plugin/exercises/gtkmm/src/ExercisesPanel.cc:486
+msgid "Resume exercises"
+msgstr "Lanjutkan latihan"
+
+#: ../frontend/plugin/statistics/gtkmm/src/StatisticsDialog.cc:146
+msgid "Browse history"
+msgstr "Jelajah riwayat"
+
+#. Delete button
+#: ../frontend/plugin/statistics/gtkmm/src/StatisticsDialog.cc:151
+msgid "Delete all statistics history"
+msgstr "Hapus semua riwayat statistik"
+
+#: ../frontend/plugin/statistics/gtkmm/src/StatisticsDialog.cc:158
+msgid "Date:"
+msgstr "Tanggal:"
+
+#: ../frontend/plugin/statistics/gtkmm/src/StatisticsDialog.cc:194
+msgid "Breaks"
+msgstr "Rehat"
+
+#: ../frontend/plugin/statistics/gtkmm/src/StatisticsDialog.cc:204
+msgid "Break prompts"
+msgstr "Permintaan rehat"
+
+#: ../frontend/plugin/statistics/gtkmm/src/StatisticsDialog.cc:205
+msgid ""
+"The number of times you were prompted to break, excluding repeated prompts "
+"for the same break"
+msgstr ""
+"Berapa kali anda ditanya untuk rehat, tidak termasuk perulangan permintaan "
+"rehat yang sama."
+
+#: ../frontend/plugin/statistics/gtkmm/src/StatisticsDialog.cc:210
+msgid "Repeated prompts"
+msgstr "Perulangan permintaan"
+
+#: ../frontend/plugin/statistics/gtkmm/src/StatisticsDialog.cc:211
+msgid "The number of times you were repeatedly prompted to break"
+msgstr "Berapa kali permintaan rehat diulangi kembali"
+
+#: ../frontend/plugin/statistics/gtkmm/src/StatisticsDialog.cc:215
+msgid "Prompted breaks taken"
+msgstr "Permintaan rehat yang telah dilakukan"
+
+#: ../frontend/plugin/statistics/gtkmm/src/StatisticsDialog.cc:216
+msgid "The number of times you took a break when being prompted"
+msgstr "Berapa kali Anda mengambil rehat ketika ditanya"
+
+#: ../frontend/plugin/statistics/gtkmm/src/StatisticsDialog.cc:220
+msgid "Natural breaks taken"
+msgstr "Rehat biasa yang telah dilakukan"
+
+#: ../frontend/plugin/statistics/gtkmm/src/StatisticsDialog.cc:221
+msgid "The number of times you took a break without being prompted"
+msgstr "Berapa kali Anda mengambil rehat tanpa ditanya"
+
+#: ../frontend/plugin/statistics/gtkmm/src/StatisticsDialog.cc:225
+msgid "Breaks skipped"
+msgstr "Rehat terlewatkan"
+
+#: ../frontend/plugin/statistics/gtkmm/src/StatisticsDialog.cc:226
+msgid "The number of breaks you skipped"
+msgstr "Berapa kali Anda melewatkan rehat"
+
+#: ../frontend/plugin/statistics/gtkmm/src/StatisticsDialog.cc:230
+msgid "Breaks postponed"
+msgstr "Rehat tertunda"
+
+#: ../frontend/plugin/statistics/gtkmm/src/StatisticsDialog.cc:231
+msgid "The number of breaks you postponed"
+msgstr "Berapa kali Anda menunda rehat"
+
+#: ../frontend/plugin/statistics/gtkmm/src/StatisticsDialog.cc:235
+msgid "Overdue time"
+msgstr "Waktu terlambat"
+
+#: ../frontend/plugin/statistics/gtkmm/src/StatisticsDialog.cc:236
+msgid "The total time this break was overdue"
+msgstr "Jumlah waktu ketika terlambat rehat"
+
+#: ../frontend/plugin/statistics/gtkmm/src/StatisticsDialog.cc:240
+msgid "Daily usage"
+msgstr "Penggunaan harian"
+
+#: ../frontend/plugin/statistics/gtkmm/src/StatisticsDialog.cc:241
+msgid "The total computer usage"
+msgstr "Total waktu penggunaan komputer"
+
+#: ../frontend/plugin/statistics/gtkmm/src/StatisticsDialog.cc:313
+msgid "Activity"
+msgstr "Aktivitas"
+
+#: ../frontend/plugin/statistics/gtkmm/src/StatisticsDialog.cc:323
+msgid "Mouse usage:"
+msgstr "Penggunaan mouse:"
+
+#: ../frontend/plugin/statistics/gtkmm/src/StatisticsDialog.cc:324
+msgid "The total time you were using the mouse"
+msgstr "Total waktu Anda menggunakan mouse"
+
+#: ../frontend/plugin/statistics/gtkmm/src/StatisticsDialog.cc:327
+msgid "Mouse movement:"
+msgstr "Pergerakan mouse:"
+
+#: ../frontend/plugin/statistics/gtkmm/src/StatisticsDialog.cc:328
+msgid "The total on-screen mouse movement"
+msgstr "Total pergerakan mouse di layar"
+
+#: ../frontend/plugin/statistics/gtkmm/src/StatisticsDialog.cc:331
+msgid "Effective mouse movement:"
+msgstr "Pergerakan efektif mouse:"
+
+#: ../frontend/plugin/statistics/gtkmm/src/StatisticsDialog.cc:332
+msgid ""
+"The total mouse movement you would have had if you moved your mouse in "
+"straight lines between clicks"
+msgstr ""
+"Total pergerakan mouse yang Anda lakukan ketika Anda menggerakkan mouse "
+"secara garis lurus diantara klik"
+
+#: ../frontend/plugin/statistics/gtkmm/src/StatisticsDialog.cc:336
+msgid "Mouse button clicks:"
+msgstr "Klik tombol mouse:"
+
+#: ../frontend/plugin/statistics/gtkmm/src/StatisticsDialog.cc:337
+msgid "The total number of mouse button clicks"
+msgstr "Jumlah klik dari tombol mouse"
+
+#: ../frontend/plugin/statistics/gtkmm/src/StatisticsDialog.cc:340
+msgid "Keystrokes:"
+msgstr "Pengetikan:"
+
+#: ../frontend/plugin/statistics/gtkmm/src/StatisticsDialog.cc:341
+msgid "The total number of keys pressed"
+msgstr "Jumlah tombol yang ditekan pada keyboard"
+
+#: ../frontend/plugin/statistics/gtkmm/src/StatisticsDialog.cc:396
+#, c-format
+msgid "%s, from %s to %s"
+msgstr "%s, dari %s ke %s"
+
+#: ../frontend/plugin/statistics/gtkmm/src/StatisticsDialog.cc:602
+#: ../frontend/plugin/statistics/gtkmm/src/StatisticsDialog.cc:606
+msgid "Warning"
+msgstr "Peringatan"
+
+#: ../frontend/plugin/statistics/gtkmm/src/StatisticsDialog.cc:603
+msgid "You have chosen to delete your statistics history. Continue?"
+msgstr "Anda akan menghapus riwayat statistik Anda. Lanjutkan?"
+
+#: ../frontend/plugin/statistics/gtkmm/src/StatisticsDialog.cc:618
+msgid "Files deleted!"
+msgstr "Berkas dihapus!"
+
+#: ../frontend/plugin/statistics/gtkmm/src/StatisticsDialog.cc:619
+msgid "The files containing your statistics history have been deleted."
+msgstr "Berkas yang menyimpan riwayat statistik Anda telah dihapus."
+
+#: ../frontend/plugin/statistics/gtkmm/src/StatisticsDialog.cc:622
+msgid "Info"
+msgstr "Info"
+
+#: ../frontend/plugin/statistics/gtkmm/src/StatisticsDialog.cc:628
+msgid "File deletion failed!"
+msgstr "Penghapusan berkas gagal!"
+
+#: ../frontend/plugin/statistics/gtkmm/src/StatisticsDialog.cc:629
+msgid ""
+"The files containing your statistics history could not be deleted. Try again?"
+msgstr ""
+"Berkas yang menyimpan riwayat statistik Anda tidak bisa dihapus. Coba lagi?"
+
+#: ../frontend/plugin/statistics/gtkmm/src/StatisticsDialog.cc:632
+msgid "Error"
+msgstr "Error"
+
+msgid "Orientation"
+msgstr "Orientation"
+
+msgid "The orientation of the tray"
+msgstr "Orientasi dari tray."
+
+msgid ""
+"This is your natural rest break. Make sure you stand up and\n"
+"walk away from your computer on a regular basis. Just\n"
+"walk around for a few minutes, stretch, and relax."
+msgstr ""
+"Inilah istirahat untuk Anda. Berdiri dan berjalanlah\n"
+"secara teratur, menjauhlah dari komputer. Berkeliling,\n"
+"lakukan peregangan badan dan bersantailah."
+
+msgid "Starting %s"
+msgstr "Memulai dalam %s"
+
+msgid "Cannot resolve my own hostname. Deactivating distribution."
+msgstr "Tidak bisa meresolusi nama hostku sendiri. Menonaktifkan distribusi."
+
+msgid "Break in"
+msgstr "Rehat dalam %s"
+
+msgid "Disappears in"
+msgstr "Menghilang dalam %s"
+
+msgid "Silent in"
+msgstr "Diam dalam %s"
+
+msgid "I could not initialize Bonobo"
+msgstr "Aku tidak bisa memulai Bonobo"
+
+msgid "Inactive"
+msgstr "Tidak aktif"
+
+msgid "Credits"
+msgstr "Yang terhormat"
+
+msgid "_Written by"
+msgstr "Di_tulis oleh"
+
+msgid "_Documented by"
+msgstr "Di_dokumentasikan oleh"
+
+msgid "_Translated by"
+msgstr "Diter_jemahkan oleh"
